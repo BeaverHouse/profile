@@ -13,8 +13,7 @@ function HateCard() {
               <span className="danger">OLD, UNSUSTAINABLE</span> System or
               Framework
               <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ex.{" "}
-              <span className="danger">Nexacro, JSP</span> & etc...)
+              &nbsp;(ex. <span className="danger">Nexacro, JSP</span> & etc...)
             </li>
             <br />
             <li className="about-activity">
