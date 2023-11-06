@@ -33,15 +33,13 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
-          {isMobile ? null : (
-            <Col
-              md={5}
-              style={{ paddingTop: "30px", paddingBottom: "50px" }}
-              className="about-img"
-            >
-              <img src={aboutImg} alt="about" className="img-fluid" />
-            </Col>
-          )}
+          <Col
+            md={5}
+            style={{ paddingTop: "30px", paddingBottom: "50px" }}
+            className="about-img"
+          >
+            <img src={aboutImg} alt="about" className="img-fluid" />
+          </Col>
         </Row>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           {isMobile ? null : (
@@ -81,13 +79,15 @@ function About() {
             </h1>
             <HateCard />
           </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "40px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={XImg} alt="about" className="img-fluid" />
-          </Col>
+          {isMobile ? null : (
+            <Col
+              md={5}
+              style={{ paddingTop: "40px", paddingBottom: "50px" }}
+              className="about-img"
+            >
+              <img src={XImg} alt="about" className="img-fluid" />
+            </Col>
+          )}
         </Row>
         <h1 className="project-heading">
           <strong className="colored">Skilled</strong> Tech Stacks
