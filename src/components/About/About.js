@@ -12,6 +12,7 @@ import LearnTechstack from "./LearnTechstack";
 // import { BiSolidChevronsRight } from "react-icons/bi";
 import WantCard from "./WantCard";
 import HateCard from "./HateCard";
+import { isMobile } from "react-device-detect";
 
 function About() {
   return (
@@ -32,22 +33,26 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "30px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={aboutImg} alt="about" className="img-fluid" />
-          </Col>
+          {isMobile ? null : (
+            <Col
+              md={5}
+              style={{ paddingTop: "30px", paddingBottom: "50px" }}
+              className="about-img"
+            >
+              <img src={aboutImg} alt="about" className="img-fluid" />
+            </Col>
+          )}
         </Row>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
-          <Col
-            md={5}
-            style={{ paddingTop: "40px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <img src={checkImg} alt="about" className="img-fluid" />
-          </Col>
+          {isMobile ? null : (
+            <Col
+              md={5}
+              style={{ paddingTop: "40px", paddingBottom: "50px" }}
+              className="about-img"
+            >
+              <img src={checkImg} alt="about" className="img-fluid" />
+            </Col>
+          )}
           <Col
             md={7}
             style={{
