@@ -1,6 +1,6 @@
 # Profile
-
-Thanks for [soumyajit4419/Portfolio][ref1]
+Powered by Github Pages (w/ Github Actions)   
+Thanks to [soumyajit4419/Portfolio][ref1] for beautiful template 😆
 
 <br>
 
@@ -17,8 +17,8 @@ npm i @babel/plugin-proposal-private-property-in-object --save-dev
 
 #### Other references
 
-https://danmarshall.github.io/google-font-to-svg-path/  
-https://storyset.com/programming  
-https://react-icons.github.io/react-icons/
+- https://danmarshall.github.io/google-font-to-svg-path/  
+- https://storyset.com/programming  
+- https://react-icons.github.io/react-icons/
 
 [ref1]: https://github.com/soumyajit4419/Portfolio
