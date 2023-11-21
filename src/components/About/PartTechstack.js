@@ -29,10 +29,6 @@ function PartTechstack() {
         <b>Helm</b>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiArgo />
-        <b>Argo</b>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <BiLogoFlutter />
         <b>Flutter</b>
       </Col>

@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 // import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiPeerlist } from "react-icons/si";
 
 function Home2() {
   return (
@@ -69,7 +70,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
+              <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/haulrest/"
                   target="_blank"
@@ -78,7 +79,17 @@ function Home2() {
                 >
                   <FaLinkedinIn />
                 </a>
-              </li> */}
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://peerlist.io/haulrest"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiPeerlist />
+                </a>
+              </li>
               <li className="social-icons">
                 <a
                   href="mailto:haulrest@gmail.com"

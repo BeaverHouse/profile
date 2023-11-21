@@ -1,13 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  BiLogoSpringBoot,
-  BiLogoKubernetes,
-  BiLogoGoLang,
-} from "react-icons/bi";
-import { DiRust, DiPython, DiGit } from "react-icons/di";
-import { FaGolang, FaRust } from "react-icons/fa6";
-import { SiPrometheus, SiGrafana } from "react-icons/si";
+import { DiRust } from "react-icons/di";
+import { FaGolang } from "react-icons/fa6";
+import { SiPrometheus, SiGrafana, SiArgo } from "react-icons/si";
 
 function LearnTechstack() {
   return (
@@ -19,6 +14,10 @@ function LearnTechstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiRust />
         <b>Rust</b>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiArgo />
+        <b>Argo</b>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPrometheus />
